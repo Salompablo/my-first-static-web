@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***Etiquetas principales***/
+
+header{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Css/PiltJinx.jpg);
+    height: 100vh;
+    padding-left: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 25px -340px 10px 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color:rgba(153, 0, 115, 0.3);
+    color: white;
+}
+
+footer {
+    background: black;
+    height: auto;
+    width: fit-content;
+    font-family: 'Montserrat';
+    padding-top: 10px;
+    color: white;
+}
+
+/***Etiquetas por clase***/
+
+.logo img{
+    position: absolute;
+    margin: 0px 0px 0px -300px;
+    padding-top: 13px;
+    width: 35px;
+    height: 35px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    background-color: rgba(153, 0, 115, 0.2);
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgba(153, 0, 115, 0.2);
+    color: white;
+}
+
+.trailer {
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    transform: translate(-52%, -52%)
+}
+
+.parragraph1 {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 80%;  
+    left: 55%;
+    word-spacing: 1px;
+    line-height: 30px;
+    transform: translate(-20%, -20%)  
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: white;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity:  .4;
+    font-weight: 200;
+}
